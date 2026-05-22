@@ -9,8 +9,8 @@
 
 | Category | Question | File |
 |----------|----------|------|
-| Group 1 — Technical / Coding / SQL | Q5: Round Robin Delivery Allocation | `group1_q5_delivery_allocation.py` |
-| Group 2 — System Design / Analytics / AI | Q5: AI Recommendation with Prompt Optimization + Semantic Caching | `group2_q5_ai_recommendation.py` |
+| Group 1 — Technical / Coding / SQL | Q5: Round Robin Delivery Allocation | `g1_q5_rr.py` |
+| Group 2 — System Design / Analytics / AI | Q5: AI Recommendation with Prompt Optimization + Semantic Caching | `g2_q5_ai_recommendation.py` |
 
 ---
 
@@ -30,13 +30,13 @@ venv\Scripts\activate        # Windows
 pip install -r requirements.txt
 
 # 4. Run Group 1
-python group1_q5_delivery_allocation.py
+python g1_q5_rr.py
 
 # 5. Run Group 2
 #    Optionally set a Gemini API key for live LLM responses
 #    (demo runs with realistic mock responses if no key is set)
 #    PowerShell: $env:GEMINI_API_KEY = "your_key_here"
-python group2_q5_ai_recommendation.py
+python g2_q5_ai_recommendation.py
 ```
 
 ---
