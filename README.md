@@ -210,8 +210,8 @@ The system is built to be LLM-agnostic. To plug in a real model, set the `GEMINI
 
 ```
 Ferropulse-assignment/
-├── group1_q5_delivery_allocation.py   # Round Robin Delivery Allocator
-├── group2_q5_ai_recommendation.py     # AI Recommendation System
+├── g1_q5_rr.py   # Round Robin Delivery Allocator
+├── g2_q5_ai_recommendation.py     # AI Recommendation System
 ├── requirements.txt                   # Python dependencies
 ├── .gitignore                         # Excludes venv, cache, secrets
 └── README.md                          # This file
